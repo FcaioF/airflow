@@ -1,0 +1,15 @@
+---------------------------------------------------
+comandos docker-compose airflow
+
+
+instala os componentes do airflow:
+
+docker-compose up airflow-init
+
+
+Provisiona o serviço do airflow:
+docker-compose up
+
+
+Encerra o serviço do airflow:
+docker-compose down
